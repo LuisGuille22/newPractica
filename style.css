@@ -1,0 +1,81 @@
+/*.Colores {
+    background: red;
+    margin:100px;/*Margen para Todos los lados
+    padding:1px 1 px 1px 1px; Margen Interno
+    argin-left: 100px; margen para el lado izquierdo
+    margin-right: 100px; margen para el lado izquierdo
+    margin-bottom: 100px; margen para abajo
+    margin-top: 100px;
+    margin: 200px 100px; arriba y abajo, izquierda y derecha
+    margin: 100px 10px 20px 200px; margen en manecillas del relog arriba, derecha, abajo e izquierda
+    display: flex; en linea 
+    display:blok; en bloque 
+    }*/
+
+/*nav{
+    background: #00b8a9;
+    padding: 20px;
+}
+
+.Columna{
+    background: #f6416c;
+    color: #f8f3d4;
+    padding: 20px;
+    width: 25%;
+    margin: 15px;
+}
+.Padre{
+    display: flex;
+}
+
+a{
+    background: #00b8a9;
+    display: block; 
+}*/
+
+.nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+
+}
+
+.nav-enlace:hover{
+    background: rosybrown;
+}
+
+nav{
+    background: rebeccapurple;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-boton{
+    background: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    display: none;
+}
+
+@media (max-width: 600px){
+    nav{
+        background: rebeccapurple;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+}
+
+
