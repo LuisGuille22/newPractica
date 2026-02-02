@@ -1,0 +1,45 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.Container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.flex{
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.Precio{
+    font-size: 50px;
+    color: aquamarine;
+}
+
+.Columna {
+    background: rgb(228, 228, 228);
+    color: #333;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px gray;
+}
+
+.btn-Precio{
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-Precio:hover{
+    background: rgb( 250, 93, 75);
+}
